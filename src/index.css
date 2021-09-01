@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.flex-grid {
+  border: 2px solid #444941;
+  border-radius: 10px;
+  margin: 15px;
+}
+.flex-grid .img-wrapper {
+  width: 300px;
+  height: auto;
+}
+.flex-grid .img-wrapper img {
+  border-radius: 10px;
+}
+.flex-grid .content-data {
+  margin: 20px;
+}
+.flex-grid .content-data p {
+  margin: 5px 0px 10px;
+}
+.categories {
+  display: flex;
+}
+.categories .filter {
+  width: 22%;
+  padding-left: 30px;
+}
+.category-type {
+  width: 80%;
+  /* border: 1px solid black; */
+}
+.checkbox-filter {
+  font-size: 1rem;
+  margin: 25px 0px 0px;
+}
+.navbar-brand {
+  padding: 0px 20px 30px;
+  display: inline-block;
+  font-size: 2.5rem;
+}
